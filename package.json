@@ -1,0 +1,22 @@
+{
+  "name": "desktop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --config=cucumber.config.js",
+    "posttest": "allure generate --clean --single-file allure-result"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "@cucumber/messages": "^26.0.1",
+    "@types/node": "^22.9.0",
+    "allure-commandline": "^2.30.0",
+    "allure-cucumberjs": "^3.0.5",
+    "allure-js-commons": "^3.0.5",
+    "playwright": "^1.48.2"
+  }
+}

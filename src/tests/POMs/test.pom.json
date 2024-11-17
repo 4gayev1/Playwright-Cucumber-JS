@@ -1,0 +1,8 @@
+{
+    "searchInput": { "selector": "#search-bar__input", "waitTime": 3 },
+    "searchButton": "xpath=/html/body/div[2]/main/div[1]/div[1]/div[2]/div[2]/a",
+    "text": {
+      "selector": "xpath=/html/body/div[2]/main/div[2]/section/div/div/h2"
+    }
+  }
+  
